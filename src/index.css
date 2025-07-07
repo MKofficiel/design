@@ -6,10 +6,13 @@
   --font-jost: "Jost", sans-serif;
   --color-peach: #e7816b;
   --color-peach-light: #ffad9b;
-  --color-black: #1d1c1e;
+  --color-background-black: #1d1c1e;
   --color-white: #ffffff;
   --color-dark-grey: #333136;
   --color-light-grey: #f1f3f5;
+  --color-gradient-home: #f1eaea;
+  --color-light-grey: #979797;
+  --color-grey-300: "#8f8e8f";
 }
 
 @layer components {
