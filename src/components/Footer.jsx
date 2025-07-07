@@ -52,8 +52,10 @@ const Footer = () => {
               <span className="block font-bold">
                 Contact Us (Central Office)
               </span>
-              <span className="block">P : +1 253-863-8967</span>
-              <span>M : contact@designo.co</span>
+              <a href="tel:+1 253-863-8967" className="block">
+                P : +1 253-863-8967
+              </a>
+              <a href={"mailto:contact@designo.co"}>M : contact@designo.co</a>
             </p>
           </div>
 
