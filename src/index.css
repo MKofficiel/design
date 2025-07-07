@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-jost: "Jost", sans-serif;
+  --color-peach: #e7816b;
+  --color-peach-light: #ffad9b;
+  --color-black: #1d1c1e;
+  --color-white: #ffffff;
+  --color-dark-grey: #333136;
+  --color-light-grey: #f1f3f5;
+}
+
+@layer components {
+  .bg-red {
+    @apply bg-amber-400;
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply mx-auto max-w-[1100px];
+  }
+  .rounded-base {
+    @apply rounded-[15px];
+  }
+}
+
+html,
+body {
+  font-family: "Jost", sans-serif;
+  scroll-behavior: smooth;
+  color: #333136;
+}
