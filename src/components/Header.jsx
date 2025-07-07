@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className="relative z-50">
       <div className="relative z-30 container px-6 max-md:flex max-md:px-[24px] lg:px-0">
-        <div className="relative z-40 flex h-[96px] items-center max-md:w-full max-md:justify-between">
+        <div className="z-40 flex h-[96px] items-center max-md:w-full max-md:justify-between">
           <div className="items-center max-md:flex max-md:h-full">
             <Link className="">
               <img
@@ -22,12 +22,12 @@ const Header = () => {
           </div>
           {/* Navigation */}
           {/* BACKDROP */}
-          {/* {isOpen && (
+          {isOpen && (
             <div
               onClick={() => setIsOpen(false)}
-              className="fixed inset-0 top-24 z-5 bg-black/20 backdrop-blur-[5px] transition-opacity"
+              className="bg-background-black/60 fixed inset-0 top-24 z-5 transition-opacity"
             />
-          )} */}
+          )}
 
           <div
             className={clsx(
