@@ -6,9 +6,9 @@ import clsx from "clsx";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className="relative">
-      <div className="container max-lg:px-[40px] max-md:flex max-md:px-[24px] md:px-6">
-        <div className="flex h-[96px] items-center max-md:w-full max-md:justify-between">
+    <header className="relative z-50">
+      <div className="relative z-30 container px-6 max-md:flex max-md:px-[24px] lg:px-0">
+        <div className="relative z-40 flex h-[96px] items-center max-md:w-full max-md:justify-between">
           <div className="items-center max-md:flex max-md:h-full">
             <Link className="">
               <img
@@ -21,10 +21,17 @@ const Header = () => {
             </Link>
           </div>
           {/* Navigation */}
+          {/* BACKDROP */}
+          {/* {isOpen && (
+            <div
+              onClick={() => setIsOpen(false)}
+              className="fixed inset-0 top-24 z-5 bg-black/20 backdrop-blur-[5px] transition-opacity"
+            />
+          )} */}
 
           <div
             className={clsx(
-              "z-2 flex flex-1 justify-end transition-opacity max-md:absolute max-md:top-full max-md:left-0 max-md:w-full max-md:justify-start max-md:bg-black max-md:opacity-0 max-md:duration-300",
+              "z-20 flex flex-1 justify-end transition-opacity max-md:absolute max-md:top-full max-md:left-0 max-md:w-full max-md:justify-start max-md:bg-black max-md:opacity-0 max-md:duration-300",
               isOpen ? "max-md:opacity-100" : "max-md:pointer-events-none",
             )}
           >
