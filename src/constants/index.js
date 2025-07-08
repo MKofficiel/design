@@ -77,9 +77,9 @@ export const traits = [
 //               />
 
 export const socialsIcon = [
-  { icon: "../assets/shared/desktop/icon-facebook.svg" },
-  { icon: "../assets/shared/desktop/icon-youtube.svg" },
-  { icon: "../assets/shared/desktop/icon-twitter.svg" },
-  { icon: "../assets/shared/desktop/icon-pinterest.svg" },
-  { icon: "../assets/shared/desktop/icon-instagram.svg" },
+  { icon: "src/assets/shared/desktop/icon-facebook.svg" },
+  { icon: "src/assets/shared/desktop/icon-youtube.svg" },
+  { icon: "src/assets/shared/desktop/icon-twitter.svg" },
+  { icon: "src/assets/shared/desktop/icon-pinterest.svg" },
+  { icon: "src/assets/shared/desktop/icon-instagram.svg" },
 ];
