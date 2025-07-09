@@ -47,7 +47,7 @@ const DesignServices = () => {
                     <span>View project</span>
                     <span>
                       <img
-                        src="/src/assets/shared/desktop/icon-right-arrow.svg"
+                        src="/assets/shared/desktop/icon-right-arrow.svg"
                         alt=""
                       />
                     </span>
