@@ -16,7 +16,7 @@ const Header = () => {
           <div className="items-center max-md:flex max-md:h-full">
             <Link to="/" className="">
               <img
-                src="src/assets/shared/desktop/logo-dark.png"
+                src="/assets/shared/desktop/logo-dark.png"
                 alt="logo"
                 className="max-md:h-[27px] max-md:w-[157px]"
                 width={202}

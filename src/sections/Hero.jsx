@@ -1,5 +1,4 @@
 import Button from "../components/Button";
-import heroImage from "../assets/home/desktop/hero.png";
 
 const Hero = () => {
   return (
@@ -23,8 +22,7 @@ const Hero = () => {
           {/* Hero Image */}
           <div className="overflow-hidden max-lg:max-h-[387px] lg:-mb-[100px]">
             <img
-              // src="../assets/home/desktop/hero.png"
-              src={heroImage}
+              src="/assets/home/desktop/hero.png"
               height={573}
               width={284}
               alt="hero image"
