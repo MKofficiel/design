@@ -55,7 +55,7 @@ const Header = () => {
             className="cursor-pointer md:hidden"
           >
             <img
-              src={`src/assets/shared/mobile/icon-${isOpen ? "close" : "hamburger"}.svg`}
+              src={`/assets/shared/mobile/icon-${isOpen ? "close" : "hamburger"}.svg`}
               alt=""
             />
           </button>
