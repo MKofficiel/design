@@ -28,6 +28,9 @@
   .rounded-base {
     @apply rounded-[15px];
   }
+  h1 {
+    @apply mb-6 text-[32px] leading-[36px] tracking-normal text-white lg:text-[48px] lg:leading-[48px];
+  }
 }
 
 html,
