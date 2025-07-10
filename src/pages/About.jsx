@@ -1,5 +1,13 @@
+import Header from "../components/Header";
+import AboutHero from "../sections/AboutHero";
+
 const About = () => {
-  return <div>About</div>;
+  return (
+    <main>
+      <Header />
+      <AboutHero />
+    </main>
+  );
 };
 
 export default About;
