@@ -1,11 +1,15 @@
-import Header from "../components/Header";
+import Locations from "../components/Locations";
 import AboutHero from "../sections/AboutHero";
+import OurStory from "../sections/OurStory";
+import TheRealDeal from "../sections/TheRealDeal";
 
 const About = () => {
   return (
     <main>
-      <Header />
       <AboutHero />
+      <OurStory />
+      <Locations />
+      <TheRealDeal />
     </main>
   );
 };

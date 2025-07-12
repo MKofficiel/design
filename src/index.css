@@ -6,6 +6,7 @@
   --font-jost: "Jost", sans-serif;
   --color-peach: #e7816b;
   --color-peach-light: #ffad9b;
+  --color-peach-white: #fdf3f0;
   --color-background-black: #1d1c1e;
   --color-white: #ffffff;
   --color-dark-grey: #333136;
@@ -13,11 +14,19 @@
   --color-gradient-home: #f1eaea;
   --color-light-grey: #979797;
   --color-grey-300: "#8f8e8f";
+  --color-deep-red: #5d0202;
 }
 
 @layer components {
   .bg-red {
     @apply bg-amber-400;
+  }
+  .background-gradient {
+    background: linear-gradient(
+      to bottom,
+      rgba(93, 2, 2, 0) 0%,
+      rgba(93, 2, 2, 0.25) 100%
+    );
   }
 }
 

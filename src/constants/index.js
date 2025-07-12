@@ -1,5 +1,5 @@
 export const navLinks = [
-  { label: "our company", path: "about" },
+  { label: "our company", path: "our-company" },
   { label: "locations", path: "location" },
   { label: "contact", path: "contact" },
 ];
@@ -55,31 +55,27 @@ export const traits = [
   },
 ];
 
-//  <img
-//                 src="/src/assets/shared/desktop/icon-youtube.svg"
-//                 alt="icon youtube"
-//               />
-//               <img
-//                 src="/src/assets/shared/desktop/icon-youtube.svg"
-//                 alt="icon youtube"
-//               />
-//               <img
-//                 src="/src/assets/shared/desktop/icon-youtube.svg"
-//                 alt="icon youtube"
-//               />
-//               <img
-//                 src="/src/assets/shared/desktop/icon-youtube.svg"
-//                 alt="icon youtube"
-//               />
-//               <img
-//                 src="/src/assets/shared/desktop/icon-youtube.svg"
-//                 alt="icon youtube"
-//               />
-
 export const socialsIcon = [
   { icon: "/assets/shared/desktop/icon-facebook.svg" },
   { icon: "/assets/shared/desktop/icon-youtube.svg" },
   { icon: "/assets/shared/desktop/icon-twitter.svg" },
   { icon: "/assets/shared/desktop/icon-pinterest.svg" },
   { icon: "/assets/shared/desktop/icon-instagram.svg" },
+];
+
+// public\assets\shared\desktop\illustration-australia.svg
+
+export const locations = [
+  {
+    country: "Canada",
+    image: "/assets/shared/desktop/illustration-canada.svg",
+  },
+  {
+    country: "Australia",
+    image: "/assets/shared/desktop/illustration-australia.svg",
+  },
+  {
+    country: "United Kingdom",
+    image: "/assets/shared/desktop/illustration-united-kingdom.svg",
+  },
 ];
