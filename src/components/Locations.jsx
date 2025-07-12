@@ -9,7 +9,6 @@ const Locations = () => {
           <ul className="flex items-center max-lg:flex-col max-lg:gap-[48px] lg:justify-between">
             {locations.map(({ country, image }) => (
               <li key={country}>
-                {/* Country card */}
                 <div className="flex flex-col items-center gap-[48px]">
                   <div className="background-gradient flex size-[202px] items-center justify-center rounded-full">
                     <img src={image} alt={country} />
