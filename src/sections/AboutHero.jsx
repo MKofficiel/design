@@ -1,4 +1,3 @@
-import React from "react";
 import ResponsiveImage from "../components/ResponsiveImage";
 
 const AboutHero = () => {
