@@ -15,7 +15,7 @@ const TheRealDeal = () => {
             />
           </div>
           {/* TEXT BOX */}
-          <div className="max-lg:mx-auto max-lg:px-6 max-lg:py-[68px] max-lg:text-center max-md:py-[80px] lg:flex lg:flex-1 lg:items-center lg:px-[80px]">
+          <div className="max-lg:mx-auto max-lg:px-6 max-lg:py-[68px] max-lg:text-center max-md:py-[80px] lg:-order-1 lg:flex lg:flex-1 lg:items-center lg:px-[80px]">
             <div>
               <h2 className="text-peach mb-6 text-[32px] leading-[36px] font-medium">
                 The real deal
