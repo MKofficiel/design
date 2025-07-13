@@ -3,7 +3,7 @@ import ContactHeader from "../sections/ContactHeader";
 
 const Contact = () => {
   return (
-    <main>
+    <main className="">
       <ContactHeader />
       <Locations />
     </main>
