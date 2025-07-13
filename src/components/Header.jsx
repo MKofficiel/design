@@ -39,6 +39,7 @@ const Header = () => {
                   <li key={label}>
                     <Link
                       to={path}
+                      onClick={() => setIsOpen(false)}
                       className="group relative text-sm tracking-[2px] uppercase max-md:text-[24px] max-md:text-white"
                     >
                       {label}
