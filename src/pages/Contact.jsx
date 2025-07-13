@@ -1,7 +1,13 @@
-import React from "react";
+import Locations from "../components/Locations";
+import ContactHeader from "../sections/ContactHeader";
 
 const Contact = () => {
-  return <div>Contact</div>;
+  return (
+    <main>
+      <ContactHeader />
+      <Locations />
+    </main>
+  );
 };
 
 export default Contact;

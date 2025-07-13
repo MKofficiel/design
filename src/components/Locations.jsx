@@ -3,13 +3,12 @@ import Button from "./Button";
 
 const Locations = () => {
   return (
-    <section className="max-lg:pb-[120px]">
+    <section className="pb-[160px] max-lg:pb-[120px]">
       <div className="container">
         <div className="lg:px-[70px]">
           <ul className="flex items-center max-lg:flex-col max-lg:gap-[48px] lg:justify-between">
             {locations.map(({ country, image }) => (
               <li key={country}>
-                {/* Country card */}
                 <div className="flex flex-col items-center gap-[48px]">
                   <div className="background-gradient flex size-[202px] items-center justify-center rounded-full">
                     <img src={image} alt={country} />

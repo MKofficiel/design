@@ -21,6 +21,9 @@
   .bg-red {
     @apply bg-amber-400;
   }
+  .input {
+    @apply w-full cursor-pointer resize-none px-[13px] pb-[11px] text-[15px] font-medium text-white transition-all duration-300 outline-none placeholder:text-white/50 hover:border-white;
+  }
   .background-gradient {
     background: linear-gradient(
       to bottom,
@@ -34,11 +37,11 @@
   .container {
     @apply mx-auto max-w-[1100px];
   }
-  .rounded-base {
+  .border-raduis {
     @apply rounded-[15px];
   }
   h1 {
-    @apply mb-6 text-[32px] leading-[36px] tracking-normal text-white lg:text-[48px] lg:leading-[48px];
+    @apply mb-6 text-[32px] leading-[36px] font-medium tracking-normal text-white lg:text-[48px] lg:leading-[48px];
   }
 }
 
