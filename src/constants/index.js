@@ -206,6 +206,42 @@ export const servicesContent = {
 export const localisations = [
   {
     country: "Canada",
-    name: "Designo Central Office",
+    officeName: "Designo Central Office",
+    addressLines: ["3886 Wellington Street", "Toronto, Ontario M9C 3J5"],
+    // public\assets\locations\tablet\image-map-australia.png
+    image: {
+      small: "/assets/locations/tablet/image-map-canada.png",
+      desktop: "/assets/locations/desktop/image-map-canada.png",
+    },
+    contact: {
+      phone: "+1 253-863-8967",
+      email: "contact@designo.co",
+    },
+  },
+  {
+    country: "Australia",
+    officeName: "Designo AU Office",
+    addressLines: ["19 Balonne Street", "New South Wales 2443"],
+    image: {
+      small: "/assets/locations/tablet/image-map-australia.png",
+      desktop: "/assets/locations/desktop/image-map-australia.png",
+    },
+    contact: {
+      phone: "(02) 6720 9092",
+      email: "contact@designo.au",
+    },
+  },
+  {
+    country: "United Kingdom",
+    officeName: "Designo UK Office",
+    addressLines: ["13  Colorado Way", "Rhyd-y-fro SA8 9GA"],
+    image: {
+      small: "/assets/locations/tablet/image-map-australia.png",
+      desktop: "/assets/locations/desktop/image-map-australia.png",
+    },
+    contact: {
+      phone: "078 3115 1400",
+      email: "contact@designo.uk",
+    },
   },
 ];
