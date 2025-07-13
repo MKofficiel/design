@@ -10,7 +10,7 @@ const Header = () => {
 
   useLockBodyScroll(isOpen);
   return (
-    <header className="relative z-[999]">
+    <header className="relative z-[999] md:pb-[16px]">
       <div className="relative z-30 container px-6 max-md:flex max-md:px-[24px] lg:px-0">
         <div className="flex h-[96px] items-center max-md:w-full max-md:justify-between">
           <div className="items-center max-md:flex max-md:h-full">
