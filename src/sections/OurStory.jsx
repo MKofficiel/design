@@ -2,7 +2,7 @@ import ResponsiveImage from "../components/ResponsiveImage";
 
 const OurStory = () => {
   return (
-    <section className="md:px-6 md:py-[120px] lg:py-[160px]">
+    <section className="py-[160px] max-lg:py-[120px] md:px-6">
       <div className="bg-peach-white container overflow-hidden md:rounded-[15px]">
         <div className="md:flex md:flex-col md:gap-6 lg:flex-row lg:gap-0">
           {/* IMAGE BOX */}

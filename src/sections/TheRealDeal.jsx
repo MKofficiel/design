@@ -2,7 +2,7 @@ import ResponsiveImage from "../components/ResponsiveImage";
 
 const TheRealDeal = () => {
   return (
-    <section className="max-lg:pb-[120px] md:px-6 lg:py-[120px]">
+    <section className="pb-[160px] max-lg:pb-[120px] md:px-6">
       <div className="bg-peach-white container overflow-hidden md:rounded-[15px]">
         <div className="md:flex md:flex-col md:gap-6 lg:flex-row lg:gap-0">
           {/* IMAGE BOX */}

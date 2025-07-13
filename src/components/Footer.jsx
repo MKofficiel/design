@@ -1,9 +1,19 @@
-import { Link } from "react-router";
+import { Link, useLocation } from "react-router";
 import { navLinks, socialsIcon } from "../constants";
+import clsx from "clsx";
 
 const Footer = () => {
+  const location = useLocation();
+  console.log(location);
+  const isContact = location.pathname === "/contact";
   return (
-    <footer className="bg-background-black -mt-[70px] pt-[144px] pb-[72px] max-lg:pt-[166px] max-lg:pb-[80px] max-md:-mt-[189px] max-md:pt-[253px] max-md:pb-[64px]">
+    <footer
+      className={clsx(
+        "bg-background-black py-[72px] max-lg:pb-[80px] max-md:pb-[64px]",
+        !isContact &&
+          "-mt-[70px] pt-[144px] max-lg:pt-[166px] max-md:-mt-[189px] max-md:pt-[253px]",
+      )}
+    >
       <div className="container max-lg:px-6">
         <div className="grid grid-cols-1 max-md:gap-y-[40px] max-md:text-center md:grid-cols-3 md:gap-y-[72px]">
           <div className="relative md:col-span-3">

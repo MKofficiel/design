@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Locations = () => {
   return (
-    <section className="max-lg:pb-[120px] max-md:pt-[120px]">
+    <section className="pb-[160px] max-lg:pb-[120px]">
       <div className="container">
         <div className="lg:px-[70px]">
           <ul className="flex items-center max-lg:flex-col max-lg:gap-[48px] lg:justify-between">
