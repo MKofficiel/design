@@ -10,7 +10,7 @@ const ServiceProjectShowcase = ({ projects }) => {
                   <img
                     src={image}
                     alt={title}
-                    className="h-full max-md:h-[320px] max-md:w-[327px]"
+                    className="h-full w-full max-md:h-[320px] max-md:w-[327px]"
                   />
                 </div>
                 <div className="px-[30px] py-[32px] md:px-[40px]">
