@@ -23,12 +23,6 @@ const Locations = () => {
                   )}
                 >
                   <picture className="">
-                    {/* <source media="(min-width:1024px)" srcSet={image.desktop} />
-                    <img
-                      src={image.small}
-                      alt={`${country} image`}
-                      className="h-full w-full object-cover object-top-right"
-                    /> */}
                     <source media="(min-width:1024px)" srcSet={image.desktop} />
                     <source media="(min-width:768px)" srcSet={image.small} />
                     <img
