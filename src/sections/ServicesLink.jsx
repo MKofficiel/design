@@ -2,7 +2,6 @@ import { Link, useLocation, useParams } from "react-router";
 import { services } from "../constants";
 import clsx from "clsx";
 import ResponsiveImage from "../components/ResponsiveImage";
-import HoverCard from "../components/HoverCard";
 
 const ServicesLink = () => {
   const { service } = useParams();
