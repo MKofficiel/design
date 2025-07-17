@@ -19,8 +19,6 @@ const Footer = () => {
           <div className="relative md:col-span-3">
             {/* NAVIGATION */}
             <div className="flex max-md:flex-col max-md:items-center max-md:gap-[32px] md:justify-between">
-              {/* src\assets\shared\desktop\logo-light.png */}
-
               <Link>
                 <img
                   src="/assets/shared/desktop/logo-light.png"

@@ -7,11 +7,6 @@ const DesignServices = () => {
     <section className="py-[120px] lg:py-[160px]">
       <div className="container">
         <div className="grid h-full w-full grid-cols-1 gap-y-[24px] px-6 lg:grid-cols-2 lg:gap-x-6 lg:px-0">
-          {/* <div className="bg-yellow-100 lg:row-start-1 lg:row-end-3">
-            GRID 1
-          </div>
-          <div className="bg-green-400">GRID 2 </div>
-          <div className="bg-black">GRID-3</div> */}
           {services.map(({ title, slug, to, img }) => (
             <Link
               key={to}
