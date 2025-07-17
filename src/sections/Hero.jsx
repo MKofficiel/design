@@ -1,4 +1,3 @@
-import { SplitText } from "gsap/all";
 import Button from "../components/Button";
 
 import { useGSAP } from "@gsap/react";

@@ -29,15 +29,6 @@ const ServicesLink = () => {
                 tabletSrc={img.tablet}
                 className="border-raduis h-full w-full object-cover"
               />
-              {/* <picture className="block h-full w-full">
-                <source srcSet={img.desktop} media="(min-width:1024px)" />
-                <source srcSet={img.tablet} media="(min-width:640px)" />
-                <img
-                  src={img.mobile}
-                  alt=""
-                  className="h-full w-full rounded-[15px]"
-                />
-              </picture> */}
 
               <div className="absolute top-1/2 left-1/2 z-30 w-full -translate-x-1/2 -translate-y-1/2 text-center text-white">
                 <div className="flex flex-col items-center">
