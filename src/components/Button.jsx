@@ -11,8 +11,9 @@ const Button = ({ children, to, variant = "primary", className, ref }) => {
 
   return (
     <Link
-      to={to}
+      to={`/${to}`}
       ref={ref}
+      replace
       className={`${styleBase} ${className} ${variants[variant]}`}
     >
       {children}

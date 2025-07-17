@@ -17,7 +17,7 @@ const Locations = () => {
                     <h2 className="mb-8 text-[20px] leading-[26px] font-medium tracking-[5px] uppercase">
                       {country}
                     </h2>
-                    <Button to="location" variant="secondary" replace>
+                    <Button to="locations" variant="secondary" replace>
                       See location
                     </Button>
                   </div>

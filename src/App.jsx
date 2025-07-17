@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from "react-router";
 // import Services from "./pages/Services";
 import { lazy, Suspense } from "react";
 import Spinner from "./components/Spinner";
+import ScrollToTop from "./components/ScrollToTop";
 
 const AppLayout = lazy(() => import("./pages/AppLayout"));
 const Home = lazy(() => import("./pages/Home"));
@@ -18,6 +19,7 @@ const Contact = lazy(() => import("./pages/Contact"));
 const App = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Suspense fallback={<Spinner />}>
         {/* <Routes>
         <Route index element={<Home />} />
