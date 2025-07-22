@@ -15,7 +15,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <Suspense fallback={<Spinner />}>
+      <Suspense>
         <Routes>
           <Route path="/" element={<AppLayout />}>
             <Route index element={<Home />} />
